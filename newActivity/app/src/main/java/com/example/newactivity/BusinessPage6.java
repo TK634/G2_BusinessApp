@@ -1,10 +1,13 @@
 package com.example.newactivity;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.Toast;
 
 public class BusinessPage6 extends AppCompatActivity {
 
@@ -28,5 +31,18 @@ public class BusinessPage6 extends AppCompatActivity {
 
         });
 
+        CalendarView calendar = findViewById(R.id.Business6calendarView);
+        calendar.setOnDateChangeListener(
+                new CalendarView.OnDateChangeListener() {
+                    @Override
+                    public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
+                        int date = 0;
+                        String message = year + "/" + (month + 1) + "/" + date;
+                        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+                    }
+                }
+        );
+
     }
 }
+

@@ -6,26 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".BusinessPage6">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="事業者ページ6"
-        android:textSize="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/ButtonToHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
         android:text="PUSH"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:layout_width="wrap_content"
@@ -34,5 +24,23 @@
         android:text="戻る"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <CalendarView
+        android:id="@+id/Business6calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxDate="05/01/2023"
+        android:minDate="05/01/2022"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="予約確認"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="78dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
