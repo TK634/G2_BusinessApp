@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 public class BusinessPage6 extends AppCompatActivity {
@@ -40,9 +43,25 @@ public class BusinessPage6 extends AppCompatActivity {
                         String message = year + "/" + (month + 1) + "/" + date;
                         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
                     }
-                }
+                });
+
+        String[] platformVersion = {
+                "予約時間：12:30",
+                "来店人数：5人",
+                "内訳：アメリカ(2),タイ(1),韓国(1),サウジアラビア(1)",
+                "備考：ヴィーガン(1),ムスリム(1)",
+
+        };
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
+                getApplicationContext(),
+                android.R.layout.simple_list_item_1,    // Androidに組み込まれているレイアウト
+                platformVersion
         );
 
-    }
-}
+        ListView listView = findViewById(R.id.ReservationList);
 
+        listView.setAdapter(arrayAdapter);
+    }
+
+}
