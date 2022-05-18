@@ -14,6 +14,36 @@
         android:theme="@style/Theme.UserApp"
         tools:targetApi="31">
         <activity
+            android:name=".User15"
+            android:exported="false" />
+        <activity
+            android:name=".User14"
+            android:exported="false" />
+        <activity
+            android:name=".User13"
+            android:exported="false" />
+        <activity
+            android:name=".User12"
+            android:exported="false" />
+        <activity
+            android:name=".User11"
+            android:exported="false" />
+        <activity
+            android:name=".User10"
+            android:exported="false" />
+        <activity
+            android:name=".User9"
+            android:exported="false" />
+        <activity
+            android:name=".User8"
+            android:exported="false" />
+        <activity
+            android:name=".User5"
+            android:exported="false" />
+        <activity
+            android:name=".User4"
+            android:exported="false" />
+        <activity
             android:name=".User6"
             android:exported="false" />
         <activity
