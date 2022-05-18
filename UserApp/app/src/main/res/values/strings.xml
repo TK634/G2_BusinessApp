@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">UserApp</string>
+    <string name="checkBox17">清水寺</string>
+    <string name="checkBox24">伏見稲荷神社</string>
+    <string name="checkBox23">天橋立</string>
+    <string name="checkBox22">二条城</string>
+    <string name="checkBox21">東寺</string>
+    <string name="checkBox20">京都タワー</string>
+    <string name="checkBox19">金閣寺</string>
+    <string name="checkBox18">下鴨神社</string>
+    <string name="checkBox16">北野天満宮</string>
+    <string name="checkBox15">京都市動物公園</string>
+    <string name="checkBox14">平安神宮</string>
+    <string name="checkBox13">京都御所</string>
+    <string name="checkBox12">京都国立博物館</string>
+    <string name="checkBox11">祇園祭</string>
+    <string name="checkBox6">嵐山</string>
+    <string name="checkBox">貴船神社</string>
+
 </resources>
