@@ -21,10 +21,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="352dp"
-        android:layout_height="198dp"
+        android:layout_width="357dp"
+        android:layout_height="158dp"
         android:text="コメント"
-        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="517dp" />
 
     <EditText
@@ -70,6 +70,14 @@
         android:text="Picture etc."
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/ButtonToBusiness4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次へ"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="675dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
