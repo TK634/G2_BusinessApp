@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+        DatabaseReference myRef = database.getReference("message2");
 
-        myRef.setValue("Hello, World!");
+        myRef.setValue("Hello, youtube!");
 
         // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
