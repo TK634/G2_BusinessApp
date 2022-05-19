@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UserApp"
         tools:targetApi="31">
+
         <activity
             android:name=".User15"
             android:exported="false" />

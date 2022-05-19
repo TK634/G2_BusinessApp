@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
 public class User5 extends AppCompatActivity {
 
@@ -13,7 +15,7 @@ public class User5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user5);
 
-        Button btn = findViewById(R.id.button2);
+        Button btn = findViewById(R.id.ButtonToUser6);
         btn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
@@ -27,5 +29,16 @@ public class User5 extends AppCompatActivity {
             startActivity(newIntent);
 
         });
+
+        //スピナー
+        Spinner spinner = findViewById(R.id.spinner);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                this,
+                R.layout.user5_custom_spinner,
+                getResources().getStringArray(R.array.list)
+        );
+        adapter.setDropDownViewResource(R.layout.user5_custom_spinner_dropdown);
+        spinner.setAdapter(adapter);
     }
 }
