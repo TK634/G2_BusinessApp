@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".User14">
 
-    <Button
-        android:id="@+id/ButtonToUser8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="希望しない"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline8"
-        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView8"
@@ -256,16 +244,29 @@
         app:layout_constraintGuide_begin="206dp" />
 
     <Button
+        android:id="@+id/ButtonToUser8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="しない"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <Button
         android:id="@+id/ButtonToUser9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="希望する"
+        android:text="OK!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.961" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

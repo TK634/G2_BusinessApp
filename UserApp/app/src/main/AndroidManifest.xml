@@ -13,7 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UserApp"
         tools:targetApi="31">
-
+        <activity
+            android:name=".User18"
+            android:exported="false" />
+        <activity
+            android:name=".User17"
+            android:exported="false" />
+        <activity
+            android:name=".User16"
+            android:exported="false" />
         <activity
             android:name=".User15"
             android:exported="false" />

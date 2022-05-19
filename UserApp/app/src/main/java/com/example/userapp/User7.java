@@ -13,19 +13,37 @@ public class User7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user7);
 
-        Button btn = findViewById(R.id.ButtonToUser8);
-        btn.setOnClickListener(v -> {
+
+
+        Button btn1 = findViewById(R.id.ButtonToUser9);
+        btn1.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), User8.class);
+            Intent newIntent = new Intent(btn1.getContext(), User9.class);
 
             // Intent にデータを保存
-            newIntent.putExtra("KEY7", "value");
+            newIntent.putExtra("KEY8", "value");
 
             // 新規画面表示実行
             startActivity(newIntent);
 
         });
+
+        Button btn2 = findViewById(R.id.ButtonToUser8);
+        btn2.setOnClickListener(v -> {
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn2.getContext(), User8.class);
+
+            // Intent にデータを保存
+            newIntent.putExtra("KEY9", "value");
+
+            // 新規画面表示実行
+            startActivity(newIntent);
+
+        });
+
     }
 }

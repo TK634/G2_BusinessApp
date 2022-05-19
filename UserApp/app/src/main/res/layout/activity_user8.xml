@@ -7,12 +7,21 @@
     tools:context=".User8">
 
     <Button
-        android:id="@+id/ButtonToUser9"
+        android:id="@+id/ButtonToUser14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="決済へ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ルート提案"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="50dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
