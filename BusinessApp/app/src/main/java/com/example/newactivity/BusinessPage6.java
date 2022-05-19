@@ -34,24 +34,17 @@ public class BusinessPage6 extends AppCompatActivity {
 
         });
 
-        CalendarView calendar = findViewById(R.id.Business6calendarView);
-        calendar.setOnDateChangeListener(
-                new CalendarView.OnDateChangeListener() {
-                    @Override
-                    public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                        int date = 0;
-                        String message = year + "/" + (month + 1) + "/" + date;
 
-                        // Intent を生成
-                        // 第一引数はこの処理のContext
-                        // 第二引数に遷移先画面のSampleActivityを指定
-                        Intent newIntent = new Intent(btn.getContext(), ReservationDetails.class);
+        CalendarView calendarView = (CalendarView) findViewById(R.id.Business6calendarView);
+        calendarView.setOnDateChangeListener((CalendarView.OnDateChangeListener) this);
+            }
 
-                        // Intent にデータを保存
-                        newIntent.putExtra("KEY7", "value");// 新規画面表示実行
-                        startActivity(newIntent);
-                    }
-                });
+            public void onSelectedDayChange(CalendarView view, int year, int month,
+            int dayOfMonth) {
+
+                Intent varIntent = new Intent(BusinessPage6.this, ReservationDetails.class);
+
+                startActivity(varIntent);
+
+            }
     }
-
-}

@@ -1,45 +1,32 @@
 package com.example.newactivity;
 
-import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-
-import com.example.newactivity.ui.main.SectionsPagerAdapter;
-import com.example.newactivity.databinding.ActivityReservationDetailsBinding;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class ReservationDetails extends AppCompatActivity {
-
-    private ActivityReservationDetailsBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_reservation_details);
 
-        binding = ActivityReservationDetailsBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        Button btn = findViewById(R.id.ButtonToClose);
+        btn.setOnClickListener(v -> {
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn.getContext(), BusinessPage6.class);
 
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = binding.viewPager;
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = binding.tabs;
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = binding.fab;
+            // Intent にデータを保存
+            newIntent.putExtra("KEY7", "value");
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
+            // 新規画面表示実行
+            startActivity(newIntent);
         });
     }
 }
