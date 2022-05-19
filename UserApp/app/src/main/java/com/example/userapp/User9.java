@@ -27,5 +27,20 @@ public class User9 extends AppCompatActivity {
             startActivity(newIntent);
 
         });
+
+        Button btn2 = findViewById(R.id.ButtonToUser11);
+        btn.setOnClickListener(v -> {
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn2.getContext(), User11.class);
+
+            // Intent にデータを保存
+            newIntent.putExtra("KEY7", "value");
+
+            // 新規画面表示実行
+            startActivity(newIntent);
+
+        });
     }
 }
