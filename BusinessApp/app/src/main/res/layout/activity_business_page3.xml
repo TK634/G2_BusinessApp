@@ -10,32 +10,66 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="事業者ページ3"
+        android:text="店舗詳細"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
-    <Button
-        android:id="@+id/ButtonToBusiness4"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="198dp"
+        android:text="コメント"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PUSH"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="　　　料金（単価）"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="116dp" />
 
-    <Button
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="183dp"
+        android:layout_height="31dp"
+        android:text="昼："
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="183dp"
+        android:layout_height="35dp"
+        android:text="夜："
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onBackButtonClick"
-        android:text="戻る"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="　　メニュー登録"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="294dp" />
 
-
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="342dp"
+        android:layout_height="138dp"
+        android:text="Picture etc."
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="352dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
