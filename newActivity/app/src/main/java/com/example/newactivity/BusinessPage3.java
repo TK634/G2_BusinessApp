@@ -2,9 +2,6 @@ package com.example.newactivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.widget.Button;
 
 public class BusinessPage3 extends AppCompatActivity {
 
