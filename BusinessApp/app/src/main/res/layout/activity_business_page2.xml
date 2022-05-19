@@ -6,35 +6,75 @@
     android:layout_height="match_parent"
     tools:context=".BusinessPage2">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="電話番号："
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="439dp" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="事業者ページ2"
-        android:textSize="40dp"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="124dp"
+        android:text="入力項目"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
-    <Button
-        android:id="@+id/ButtonToBusiness3"
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PUSH"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="店舗名："
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="134dp" />
 
-    <Button
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onBackButtonClick"
-        android:text="戻る"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="店舗区分"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="225dp" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="住所："
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="口座番号："
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="555dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
 public class BusinessPage2 extends AppCompatActivity {
 
@@ -13,20 +15,21 @@ public class BusinessPage2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_page2);
 
-        Button btn = findViewById(R.id.ButtonToBusiness3);
-        btn.setOnClickListener(v -> {
-            // Intent を生成
-            // 第一引数はこの処理のContext
-            // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), BusinessPage3.class);
 
-            // Intent にデータを保存
-            newIntent.putExtra("KEY2", "value");
 
-            // 新規画面表示実行
-            startActivity(newIntent);
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapter.add("A型");
+            adapter.add("B型");
+            adapter.add("AB型");
+            adapter.add("O型");
+            Spinner spinner = (Spinner) findViewById(R.id.spinner2);
+            spinner.setAdapter(adapter);
 
-        });
-    }
 
+        };
 }
+
+
+
+
