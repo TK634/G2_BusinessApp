@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationDetails">
+
+    <EditText
+        android:id="@+id/RsvDate"
+        android:layout_width="251dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Thurthday, 5/26"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="備考："
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:breakStrategy="simple"
+        android:text="ムスリム(1),ヴィーガン(1),ピーナッツアレルギー(1)"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/countries"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:breakStrategy="simple"
+        android:text="アメリカ(2),タイ(1),韓国(1),サウジアラビア(1)"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <EditText
+        android:id="@+id/RsvNofPpl"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="来店人数：5人"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/RsvTime"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="予約時間：12:30"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/classification"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="内訳："
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/ButtonToClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="CLOSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
