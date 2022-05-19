@@ -18,15 +18,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="161dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="124dp"
-        android:text="入力項目"
-        android:textSize="34sp"
+        android:layout_width="176dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="116dp"
+        android:text="新規事業者登録"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
