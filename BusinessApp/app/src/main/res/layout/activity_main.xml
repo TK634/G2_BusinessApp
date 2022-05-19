@@ -24,7 +24,10 @@
         android:layout_width="255dp"
         android:layout_height="57dp"
         android:layout_marginBottom="120dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:text="新規登録の方はこちら"
+        android:textColor="#00BFA5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -60,6 +63,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00BFA5"
+        android:backgroundTint="#00BFA5"
         android:text="ログイン"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="363dp" />
@@ -76,6 +81,8 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00BFA5"
+        android:backgroundTint="#00BFA5"
         android:text="＊パスワード忘れた方はこちら＊"
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="307dp" />
