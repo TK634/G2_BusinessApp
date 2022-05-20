@@ -29,12 +29,31 @@ public class MainActivity extends AppCompatActivity {
         Button btn_submit = findViewById(R.id.ButtonToUser2);
         MemberEmail ema = new MemberEmail();
         btn_submit.setOnClickListener(v -> {
+
+
             Member men = new Member(email.getText().toString(),password.getText().toString());
             ema.add(men).addOnSuccessListener(suc->{
                 Toast.makeText(this, "Record is inserted", Toast.LENGTH_SHORT).show();
             }).addOnFailureListener(er->{
                 Toast.makeText(this, ""+er.getMessage(), Toast.LENGTH_SHORT).show();
             });
+
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("users");
+            myRef.setValue(men);
+
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn_submit.getContext(), User2.class);
+
+            // Intent にデータを保存
+            newIntent.putExtra("KEY1", "value");
+
+            // 新規画面表示実行
+            startActivity(newIntent);
+
+
         });
 
 //        // Write a message to the database
@@ -62,19 +81,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button btn = findViewById(R.id.ButtonToUser2);
-        btn.setOnClickListener(v -> {
-            // Intent を生成
-            // 第一引数はこの処理のContext
-            // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), User2.class);
 
-            // Intent にデータを保存
-            newIntent.putExtra("KEY1", "value");
+//        btn_submit.setOnClickListener(v -> {
+//            // Intent を生成
+//            // 第一引数はこの処理のContext
+//            // 第二引数に遷移先画面のSampleActivityを指定
+//            Intent newIntent = new Intent(btn_submit.getContext(), User2.class);
+//
+//            // Intent にデータを保存
+//            newIntent.putExtra("KEY1", "value");
+//
+//            // 新規画面表示実行
+//            startActivity(newIntent);
 
-            // 新規画面表示実行
-            startActivity(newIntent);
-
-        });
+//        });
     }
 }
