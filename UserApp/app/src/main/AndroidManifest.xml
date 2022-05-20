@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -100,4 +101,86 @@
         </activity>
     </application>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.userapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UserApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".User18"
+            android:exported="false" />
+        <activity
+            android:name=".User17"
+            android:exported="false" />
+        <activity
+            android:name=".User16"
+            android:exported="false" />
+        <activity
+            android:name=".User15"
+            android:exported="false" />
+        <activity
+            android:name=".User14"
+            android:exported="false" />
+        <activity
+            android:name=".User13"
+            android:exported="false" />
+        <activity
+            android:name=".User12"
+            android:exported="false" />
+        <activity
+            android:name=".User11"
+            android:exported="false" />
+        <activity
+            android:name=".User10"
+            android:exported="false" />
+        <activity
+            android:name=".User9"
+            android:exported="false" />
+        <activity
+            android:name=".User8"
+            android:exported="false" />
+        <activity
+            android:name=".User5"
+            android:exported="false" />
+        <activity
+            android:name=".User4"
+            android:exported="false" />
+        <activity
+            android:name=".User6"
+            android:exported="false" />
+        <activity
+            android:name=".User7"
+            android:exported="false" />
+        <activity
+            android:name=".User3"
+            android:exported="false" />
+        <activity
+            android:name=".User2"
+            android:exported="false" />
+
+            <activity
+                android:name=".User1"
+                android:exported="true">
+
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+    </application>
+
+>>>>>>> origin
 </manifest>

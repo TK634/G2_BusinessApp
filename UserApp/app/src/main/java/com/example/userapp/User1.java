@@ -4,18 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-public class MainActivity extends AppCompatActivity {
+public class User1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         final EditText email = findViewById(R.id.email);
         final EditText password =findViewById(R.id.password);
         Button btn_submit = findViewById(R.id.ButtonToUser2);
-        MemberEmail ema = new MemberEmail();
+        User1_MemberEmail ema = new User1_MemberEmail();
         btn_submit.setOnClickListener(v -> {
 
 
-            Member men = new Member(email.getText().toString(),password.getText().toString());
+            User1_Member men = new User1_Member(email.getText().toString(),password.getText().toString());
             ema.add(men).addOnSuccessListener(suc->{
                 Toast.makeText(this, "Record is inserted", Toast.LENGTH_SHORT).show();
             }).addOnFailureListener(er->{

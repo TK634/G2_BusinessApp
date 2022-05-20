@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="今回の旅タイプ"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="48sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,28 +33,36 @@
         app:layout_constraintVertical_bias="0.176" />
 
     <RadioButton
-        android:id="@+id/radioButton5"
+        android:id="@+id/radio_solo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="一人"
-        android:textSize="34sp"
+        android:text="1人"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.443" />
 
     <RadioButton
-        android:id="@+id/radioButton6"
+        android:id="@+id/radioButton_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="グループ"
-        android:textSize="34sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582" />
+        app:layout_constraintVertical_bias="0.591" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="122dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
