@@ -19,14 +19,9 @@
 
     </style>
 
-    <style name="Theme.NewActivity.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 省略 -->
     </style>
-
-    <style name="Theme.NewActivity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.NewActivity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 
