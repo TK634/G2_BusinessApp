@@ -6,25 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".BusinessPage6">
 
-    <Button
-        android:id="@+id/ButtonToHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
-        android:text="HOME"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onBackButtonClick"
-        android:text="戻る"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <CalendarView
         android:id="@+id/Business6calendarView"
         android:layout_width="374dp"
@@ -35,23 +16,20 @@
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="170dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="予約確認"
-        android:textSize="34sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="89dp" />
-
     <ListView
         android:id="@+id/ReservationList"
         android:layout_width="409dp"
         android:layout_height="108dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="490dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </ListView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
