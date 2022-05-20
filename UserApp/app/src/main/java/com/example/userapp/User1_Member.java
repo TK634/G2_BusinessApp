@@ -1,28 +1,28 @@
 package com.example.userapp;
 
-public class Member {
+//emailとpassを定義
+public class User1_Member {
     private  String email;
     private String password;
-    public Member(){}
+    public User1_Member(){}
 
-    public Member (String email, String password){
+    public User1_Member(String email, String password){
         this.email = email;
         this.password = password;
     }
-
-    public String getEmail(){
+    public String get_Email(){
         return email;
     }
 
-    public void setEmail(String email){
+    public void set_Email(String email){
         this.email = email;
     }
 
-    public String getPassword(){
+    public String get_Password(){
         return password;
     }
 
-    public void setPassword(String password){
+    public void set_Password(String password){
         this.password = password;
     }
 }
