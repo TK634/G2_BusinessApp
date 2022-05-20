@@ -30,7 +30,9 @@
         android:textColor="#00BFA5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -40,7 +42,7 @@
         app:layout_constraintGuide_begin="482dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/email"
         android:layout_width="234dp"
         android:layout_height="47dp"
         android:ems="10"
@@ -50,7 +52,7 @@
         tools:layout_editor_absoluteY="175dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/password"
         android:layout_width="239dp"
         android:layout_height="45dp"
         android:ems="10"
