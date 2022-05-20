@@ -9,6 +9,7 @@ public class MemberEmail {
     public MemberEmail(){
         FirebaseDatabase db =FirebaseDatabase.getInstance();
         databaseReference = db.getReference(Member.class.getSimpleName());
+
     }
 
     public Task<Void> add(Member men){
