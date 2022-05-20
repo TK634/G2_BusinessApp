@@ -4,16 +4,17 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class MemberEmail {
+//member_emailという関数　firebaseと接続
+public class User1_MemberEmail {
     private DatabaseReference databaseReference;
-    public MemberEmail(){
+    public User1_MemberEmail(){
         FirebaseDatabase db =FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(Member.class.getSimpleName());
+        databaseReference = db.getReference(User1_Member.class.getSimpleName());
 
     }
 
-    public Task<Void> add(Member men){
+    public Task<Void> add(User1_Member member){
 
-        return databaseReference.push().setValue(men);
+        return databaseReference.push().setValue(member);
     }
 }
