@@ -14,8 +14,12 @@
         android:inputType="date"
         android:text="Thurthday, 5/26"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264" />
 
     <EditText
         android:id="@+id/note"
@@ -26,7 +30,11 @@
         android:text="備考："
         android:textSize="20sp"
         tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="489dp" />
+        tools:layout_editor_absoluteY="489dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/notes"
@@ -36,8 +44,12 @@
         android:text="ムスリム(1),ヴィーガン(1),ピーナッツアレルギー(1)"
         android:textColor="@color/teal_700"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="537dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
 
     <TextView
         android:id="@+id/countries"
@@ -47,8 +59,12 @@
         android:text="アメリカ(2),タイ(1),韓国(1),サウジアラビア(1)"
         android:textColor="@color/teal_700"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
 
     <EditText
         android:id="@+id/RsvNofPpl"
@@ -58,8 +74,12 @@
         android:inputType="textPersonName"
         android:text="来店人数：5人"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="280dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
 
     <EditText
         android:id="@+id/RsvTime"
@@ -69,8 +89,12 @@
         android:inputType="time"
         android:text="予約時間：12:30"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
 
     <EditText
         android:id="@+id/classification"
@@ -80,8 +104,12 @@
         android:inputType="textPersonName"
         android:text="内訳："
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="354dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
 
     <Button
         android:id="@+id/ButtonToClose"
