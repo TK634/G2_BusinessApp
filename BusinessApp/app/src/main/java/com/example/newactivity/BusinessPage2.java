@@ -1,26 +1,22 @@
 package com.example.newactivity;
 
-import static com.example.newactivity.R.layout.activity_business_page2;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
+import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
-import android.media.Image;
-import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.Spinner;
 
 public class BusinessPage2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(activity_business_page2);
+        setContentView(R.layout.activity_business_page2);
 
-
+        //スピナー
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         adapter.add("A型");
@@ -30,6 +26,7 @@ public class BusinessPage2 extends AppCompatActivity {
         Spinner spinner = (Spinner) findViewById(R.id.spinner2);
         spinner.setAdapter(adapter);
 
+        //ホームボタン
         ImageButton btn = findViewById(R.id.HomeButton);
         btn.setOnClickListener(v -> {
             // Intent を生成
