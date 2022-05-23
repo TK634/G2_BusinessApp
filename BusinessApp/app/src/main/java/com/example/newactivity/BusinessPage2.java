@@ -19,10 +19,12 @@ public class BusinessPage2 extends AppCompatActivity {
         //スピナー
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        adapter.add("A型");
-        adapter.add("B型");
-        adapter.add("AB型");
-        adapter.add("O型");
+        adapter.add("レストラン");
+        adapter.add("居酒屋");
+        adapter.add("洋食");
+        adapter.add("カフェ（喫茶店）");
+        adapter.add("バー");
+        adapter.add("ファストフード");
         Spinner spinner = (Spinner) findViewById(R.id.spinner2);
         spinner.setAdapter(adapter);
 
