@@ -1,12 +1,13 @@
 package com.example.newactivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class BusinessPage2 extends AppCompatActivity {
 
@@ -15,21 +16,21 @@ public class BusinessPage2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_page2);
 
+        //スピナー
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        adapter.add("レストラン");
+        adapter.add("居酒屋");
+        adapter.add("洋食");
+        adapter.add("カフェ（喫茶店）");
+        adapter.add("バー");
+        adapter.add("ファストフード");
+        Spinner spinner = (Spinner) findViewById(R.id.spinner2);
+        spinner.setAdapter(adapter);
 
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-            adapter.add("A型");
-            adapter.add("B型");
-            adapter.add("AB型");
-            adapter.add("O型");
-            Spinner spinner = (Spinner) findViewById(R.id.spinner2);
-            spinner.setAdapter(adapter);
-
-
-        };
-        Button btn = findViewById(R.id.ButtonToHome);
-            btn.setOnClickListener(v -> {
+        //ホームボタン
+        ImageButton btn = findViewById(R.id.HomeButton);
+        btn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
@@ -42,7 +43,9 @@ public class BusinessPage2 extends AppCompatActivity {
             startActivity(newIntent);
 
         });
-}
+        }
+
+    }
 
 
 
