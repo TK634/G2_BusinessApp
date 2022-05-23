@@ -3,7 +3,7 @@
     <style name="Theme.NewActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#00BFA5</item>
-        <item name="colorPrimaryVariant">#92E4D9</item>
+        <item name="colorPrimaryVariant">#FFD600</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#FFD600</item>
@@ -19,14 +19,9 @@
 
     </style>
 
-    <style name="Theme.NewActivity.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 省略 -->
     </style>
-
-    <style name="Theme.NewActivity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.NewActivity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 
