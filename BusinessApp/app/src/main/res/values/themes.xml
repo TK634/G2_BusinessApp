@@ -16,6 +16,7 @@
         <item name="colorPrimaryDark">#005247</item>
         <item name="colorAccent">#FFD600</item>
         <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/bizudpgothic_regular</item>
 
     </style>
 
