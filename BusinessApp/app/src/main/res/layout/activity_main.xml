@@ -6,90 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="371dp"
-        android:layout_height="43dp"
-        android:text="Routrip　ログイン画面"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
 
-    <Button
-        android:id="@+id/ButtonToBusiness2"
-        android:layout_width="255dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="120dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        android:text="新規登録の方はこちら"
-        android:textColor="#00BFA5"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="319dp"
+        android:layout_height="239dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="482dp" />
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="234dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="メール："
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="239dp"
+        android:layout_width="300dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="パスワード："
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="248dp" />
+        android:inputType="textPassword"
+        android:hint="パスワード："
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="メール："
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
 
     <Button
         android:id="@+id/ButtonLogIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00BFA5"
-        android:backgroundTint="#00BFA5"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
         android:text="ログイン"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="363dp" />
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
 
-    <com.google.android.material.chip.ChipGroup
-        android:id="@+id/chipGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="318dp">
-
-    </com.google.android.material.chip.ChipGroup>
+    <Button
+        android:id="@+id/ButtonToBusiness2"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="新規登録はこちら"
+        android:textColor="#00BFA5"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00BFA5"
-        android:backgroundTint="#00BFA5"
-        android:text="＊パスワード忘れた方はこちら＊"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="307dp" />
-
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="＊パスワードを忘れた方はこちら＊"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
