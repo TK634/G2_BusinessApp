@@ -6,10 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".BusinessPage4">
 
+
+    <Button
+        android:id="@+id/ButtonToReserve"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="予約確認"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <Button
+        android:id="@+id/ButtonToAnalysis"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="統計データ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
     <Button
         android:id="@+id/ButtonToPlan"
         android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:layout_marginBottom="4dp"
         android:text="プラン変更"
         android:textSize="16dp"
@@ -18,13 +45,12 @@
         app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <Button
         android:id="@+id/ButtonToEditProfile"
         android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="116dp"
+        android:layout_height="100dp"
         android:text="店舗情報変更"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,23 +58,7 @@
         app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/ButtonToReserve"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:text="予約確認"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
-
-
-    //ここからメニューとロゴのバー
+        app:layout_constraintVertical_bias="0.895" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -58,22 +68,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297"
+        app:layout_constraintVertical_bias="0.311"
         app:srcCompat="@drawable/kimono" />
 
-    <Button
-        android:id="@+id/ButtonToAnalysis"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:text="統計データ"
-        android:textSize="16dp"
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="掲載店舗ページを確認する"
+        android:textColor="#00BFA5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.562" />
 
+
+    //ここからロゴバー
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LogoBar"
         android:layout_width="match_parent"
@@ -153,21 +165,6 @@
         app:layout_constraintEnd_toEndOf="@+id/TitleBar"
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="掲載店舗ページを確認する"
-        android:textColor="#00BFA5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
