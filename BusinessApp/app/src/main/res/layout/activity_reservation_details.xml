@@ -7,97 +7,119 @@
     tools:context=".ReservationDetails">
 
 
-
-
-    <TextView
-        android:id="@+id/note"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:background="drawable/border"
-        android:inputType="textPersonName"
-        android:text="備考："
-        android:textSize="20sp"
+    <Button
+        android:id="@+id/time"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="予約時間"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.262" />
 
-    <TextView
+    <Button
+        android:id="@+id/number"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="来店人数"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <Button
+        android:id="@+id/nationalities"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="内訳"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <Button
         android:id="@+id/notes"
-        android:layout_width="220dp"
-        android:layout_height="53dp"
-        android:breakStrategy="simple"
-        android:text="ムスリム(1),ヴィーガン(1),ピーナッツアレルギー(1)"
-        android:textColor="@color/teal_700"
-        android:textSize="18sp"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="備考"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/Notes"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:breakStrategy="simple"
+        android:text="ムスリム(1), ヴィーガン(1), ピーナッツアレルギー(1)"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
 
     <TextView
         android:id="@+id/countries"
-        android:layout_width="220dp"
-        android:layout_height="53dp"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
         android:breakStrategy="simple"
-        android:text="アメリカ(2),タイ(1),韓国(1),サウジアラビア(1)"
-        android:textColor="@color/teal_700"
-        android:textSize="18sp"
+        android:text="アメリカ(2), 南アメリカ(1), タイ(1), 韓国(1), サウジアラビア(1)"
+        android:textSize="16dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
-
-    <TextView
-        android:id="@+id/RsvNofPpl"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="来店人数：5人"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805" />
+        app:layout_constraintVertical_bias="0.581" />
 
     <TextView
         android:id="@+id/RsvTime"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="time"
-        android:text="予約時間：12:30"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13：45"
+        android:textSize="40dp"
+        android:textColor="#002A25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.160"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.373" />
 
     <TextView
-        android:id="@+id/classification"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="内訳："
-        android:textSize="20sp"
+        android:id="@+id/NumOfPpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:text="6人"
+        android:textSize="40dp"
+        android:textColor="#002A25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.759"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
+        app:layout_constraintVertical_bias="0.373" />
+
+
+    //ここからメニューとロゴのバー
 
     <Button
         android:id="@+id/ButtonToClose"
@@ -105,14 +127,26 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:text="CLOSE"
+        android:textSize="16dp"
+        app:backgroundTint="#FFD600"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/ButtonToNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="NEXT"
+        android:textSize="16dp"
+        app:backgroundTint="#FFD600"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent" />
 
-
-    //ここからメニューとロゴのバー
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LogoBar"
         android:layout_width="match_parent"
@@ -186,7 +220,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="5月26日 木曜日"
+        android:text="5月28日 土曜日"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/TitleBar"
@@ -194,16 +228,6 @@
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="予約時間"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="174dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-    
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class BusinessPage4 extends AppCompatActivity {
 
@@ -55,6 +56,21 @@ public class BusinessPage4 extends AppCompatActivity {
 
             // 新規画面表示実行
             startActivity(newIntent);
+        });
+
+        Button btn4 = findViewById(R.id.ButtonToEditProfile);
+        btn4.setOnClickListener(v -> {
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn4.getContext(), BusinessPage3.class);
+
+            // Intent にデータを保存
+            newIntent.putExtra("KEY7", "value");
+
+            // 新規画面表示実行
+            startActivity(newIntent);
+
         });
 
     }
