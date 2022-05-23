@@ -38,7 +38,13 @@
     <string name="checkBox11">祇園祭</string>
     <string name="checkBox">貴船神社</string>
     <string name="checkBox6">知恩院</string>
+<<<<<<< HEAD
+    <string name="title_activity_user8_maps">User8_MapsActivity</string>
+    <string name="title_activity_user8_google_map">User8_GoogleMap</string>
+    <string name="title_activity_user8_google_map_key">User8_GoogleMapKey</string>
+=======
     <string name="title_activity_maps">MapsActivity</string>
 
+>>>>>>> origin
 
 </resources>

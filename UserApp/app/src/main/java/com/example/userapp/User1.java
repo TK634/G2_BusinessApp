@@ -26,17 +26,27 @@ public class User1 extends AppCompatActivity {
         User1_MemberEmail ema = new User1_MemberEmail();
         btn_submit.setOnClickListener(v -> {
 
+<<<<<<< HEAD:UserApp/app/src/main/java/com/example/userapp/MainActivity.java
+            //emailとpasswordをfirebase側で見れるようにする
+
+            Member men = new Member(email.getText().toString(),password.getText().toString());
+=======
 
             User1_Member men = new User1_Member(email.getText().toString(),password.getText().toString());
+>>>>>>> origin:UserApp/app/src/main/java/com/example/userapp/User1.java
             ema.add(men).addOnSuccessListener(suc->{
                 Toast.makeText(this, "Record is inserted", Toast.LENGTH_SHORT).show();
             }).addOnFailureListener(er->{
                 Toast.makeText(this, ""+er.getMessage(), Toast.LENGTH_SHORT).show();
             });
 
+<<<<<<< HEAD:UserApp/app/src/main/java/com/example/userapp/MainActivity.java
+            //User2に遷移する
+=======
             FirebaseDatabase database = FirebaseDatabase.getInstance();
             DatabaseReference myRef = database.getReference("users");
             myRef.setValue(men);
+>>>>>>> origin:UserApp/app/src/main/java/com/example/userapp/User1.java
 
             // Intent を生成
             // 第一引数はこの処理のContext
@@ -49,7 +59,10 @@ public class User1 extends AppCompatActivity {
             // 新規画面表示実行
             startActivity(newIntent);
 
+<<<<<<< HEAD:UserApp/app/src/main/java/com/example/userapp/MainActivity.java
+=======
 
+>>>>>>> origin:UserApp/app/src/main/java/com/example/userapp/User1.java
         });
 
 //        // Write a message to the database
@@ -77,6 +90,12 @@ public class User1 extends AppCompatActivity {
 
 
 
+<<<<<<< HEAD:UserApp/app/src/main/java/com/example/userapp/MainActivity.java
+
+
+
+
+=======
 
 //        btn_submit.setOnClickListener(v -> {
 //            // Intent を生成
@@ -91,5 +110,6 @@ public class User1 extends AppCompatActivity {
 //            startActivity(newIntent);
 
 //        });
+>>>>>>> origin:UserApp/app/src/main/java/com/example/userapp/User1.java
     }
 }
