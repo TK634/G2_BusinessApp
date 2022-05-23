@@ -10,13 +10,14 @@ import androidx.fragment.app.FragmentActivity;
 
 import java.util.Locale;
 
-public class User8_GoogleMap extends FragmentActivity  {
+public class User11_GoogleMap extends FragmentActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Set the layout file as the content view.
-        setContentView(R.layout.activity_user11_google_map);
+        setContentView(R.layout.activity_user10_google_map);
+
 
         Button btn = findViewById(R.id.ButtonToUser12);
         btn.setOnClickListener(v -> {
@@ -42,11 +43,11 @@ public class User8_GoogleMap extends FragmentActivity  {
         // 起点
         String start = "京都駅";
 
-        // 目的地
-        String destination = "京都府嵐山駅";
-
         //経由地
 
+
+        // 目的地
+        String destination = "京都府嵐山駅";
 
         // 移動手段：電車:r, 車:d, 歩き:w
         String[] dir = {"r", "d", "w"};

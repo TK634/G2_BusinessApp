@@ -41,5 +41,8 @@
     <string name="title_activity_user8_maps">User8_MapsActivity</string>
     <string name="title_activity_user8_google_map">User8_GoogleMap</string>
     <string name="title_activity_user8_google_map_key">User8_GoogleMapKey</string>
+    <string name="title_activity_user10_google_map">User10_GoogleMap</string>
+    <string name="title_activity_user11_google_map">User11_GoogleMap</string>
+    <string name="title_activity_user16_google_map">User16_GoogleMap</string>
 
 </resources>
