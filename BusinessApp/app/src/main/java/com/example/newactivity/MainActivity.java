@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        Button btn2 = findViewById(R.id.ButtonToBusiness4);
+        Button btn2 = findViewById(R.id.ButtonLogIn);
         btn2.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
