@@ -7,26 +7,118 @@
     tools:context=".BusinessPage7">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView4"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="入客数/売上"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="342dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="統計データ"
-        android:textSize="48sp"
+        android:text="年齢比"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="184dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        app:srcCompat="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="国籍"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="222dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        app:srcCompat="@drawable/img_3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="212dp"
+        android:layout_height="25dp"
+        android:text="滞在時間:       40分~1時間"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="160dp"
+        android:layout_height="24dp"
+        android:text="男女比:      　　４：６"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.850" />
 
-    <Button
+    <TextView
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="1188dp"
-        android:onClick="onBackButtonClick"
-        android:text="previous page"
+        android:text="コメント / 評価"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -45,94 +137,100 @@
 
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.906" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="342dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.231"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232"
-        app:srcCompat="@drawable/img" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="184dp"
-        android:layout_height="152dp"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/LogoBar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
-        app:srcCompat="@drawable/img_1" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="217dp"
-        android:layout_height="191dp"
+        android:id="@+id/logo"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/profile" />
+
+
+    <ImageButton
+        android:id="@+id/HomeButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="@+id/LogoBar"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
-        app:srcCompat="@drawable/img_3" />
+        app:layout_constraintVertical_bias="0.097" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="84dp"
-        android:layout_height="25dp"
-        android:text="入客数/売上"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="85dp" />
-
-    <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="年齢比"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="311dp" />
+        android:text="統計データ"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TitleBar"
+        app:layout_constraintEnd_toEndOf="@+id/TitleBar"
+        app:layout_constraintStart_toStartOf="@+id/TitleBar"
+        app:layout_constraintTop_toTopOf="@+id/TitleBar" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="国籍"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="313dp" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="滞在時間:       40分~1時間"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="547dp" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="男女比:      　　４：６"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="603dp" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="コメント / 評価"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="654dp" />
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
