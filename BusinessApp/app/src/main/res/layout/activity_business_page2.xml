@@ -13,16 +13,24 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="店舗名："
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="205dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="109dp"
         android:layout_height="39dp"
         android:spinnerMode="dropdown"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
@@ -31,8 +39,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="口座番号："
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="626dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
 
     <EditText
         android:id="@+id/editTextTextPersonName12"
@@ -41,8 +53,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="住所："
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="393dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
 
     <EditText
         android:id="@+id/editTextTextPersonName13"
@@ -51,10 +67,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="電話番号："
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="510dp" />
-
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
@@ -63,10 +81,15 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="店舗区分"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
 
 
+    //ロゴバー
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LogoBar"
@@ -84,22 +107,33 @@
         app:logo="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/profile"
         android:layout_width="39dp"
         android:layout_height="39dp"
-        app:srcCompat="@drawable/profile"
-        tools:layout_editor_absoluteX="356dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/profile" />
 
-    <ImageView
-        android:id="@+id/imageView8"
+
+    <ImageButton
+        android:id="@+id/HomeButton"
         android:layout_width="39dp"
         android:layout_height="39dp"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="@+id/LogoBar"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
 
-
+    //タイトルバー
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
         android:layout_width="417dp"
@@ -126,8 +160,5 @@
         app:layout_constraintEnd_toEndOf="@+id/TitleBar"
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
