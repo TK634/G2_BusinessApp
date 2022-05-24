@@ -13,12 +13,12 @@ public class User9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user9);
 
-        Button btn1 = findViewById(R.id.ButtonToUser10);
-        btn1.setOnClickListener(v -> {
+        Button btn = findViewById(R.id.ButtonToUser10);
+        btn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn1.getContext(), User10_GoogleMap.class);
+            Intent newIntent = new Intent(btn.getContext(), User10_GoogleMap.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY10", "value");
@@ -28,12 +28,12 @@ public class User9 extends AppCompatActivity {
 
         });
 
-        Button btn2 = findViewById(R.id.ButtonToUser11);
-        btn2.setOnClickListener(v -> {
+        Button btn1 = findViewById(R.id.ButtonToUser11);
+        btn1.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn2.getContext(), User11.class);
+            Intent newIntent = new Intent(btn1.getContext(), User11_GoogleMap.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY11", "value");

@@ -16,7 +16,7 @@ public class User11_GoogleMap extends FragmentActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Set the layout file as the content view.
-        setContentView(R.layout.activity_user10_google_map);
+        setContentView(R.layout.activity_user11_google_map);
 
 
         Button btn = findViewById(R.id.ButtonToUser12);

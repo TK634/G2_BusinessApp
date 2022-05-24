@@ -21,8 +21,7 @@
             android:id="@+id/ButtonToUser11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="マッチング希望者がいます！"
-            android:gravity="right|top"/>
+            android:text="マッチング希望者がいます！"/>
 
 
 

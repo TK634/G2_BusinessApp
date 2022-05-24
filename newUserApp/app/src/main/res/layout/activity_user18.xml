@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User7">
+    tools:context=".User18">
 
 
     <Button
-        android:id="@+id/ButtonToUser8"
+        android:id="@+id/ButtonToUser19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="参加しない"
