@@ -292,19 +292,19 @@
     app:srcCompat="@drawable/profile" />
 
 
-<ImageButton
-android:id="@+id/HomeButton"
-android:layout_width="48dp"
-android:layout_height="48dp"
-android:padding="0dp"
-android:scaleType="fitCenter"
-android:src="@drawable/home"
-app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
-app:layout_constraintEnd_toEndOf="@+id/LogoBar"
-app:layout_constraintHorizontal_bias="0.043"
-app:layout_constraintStart_toStartOf="@+id/LogoBar"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.592"
-tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+    android:id="@+id/HomeButton"
+    android:layout_width="39dp"
+    android:layout_height="39dp"
+    android:padding="0dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/home"
+    app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+    app:layout_constraintEnd_toEndOf="@+id/LogoBar"
+    app:layout_constraintHorizontal_bias="0.043"
+    app:layout_constraintStart_toStartOf="@+id/LogoBar"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.592"
+    tools:ignore="SpeakableTextPresentCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

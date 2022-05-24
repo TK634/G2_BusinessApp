@@ -55,107 +55,43 @@
         android:id="@+id/ButtonToNewRegister"
         android:layout_width="220dp"
         android:layout_height="60dp"
-        android:background="#00B89F"
         android:text="新規登録はこちら"
-        android:textColor="@color/white"
+        android:textColor="#00BFA5"
         android:textSize="16dp"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807"
-        tools:ignore="TextContrastCheck" />
-
-    <!--    パスワード忘れた場合　必要？-->
-    <!--    <TextView-->
-    <!--        android:id="@+id/ForgottenPassword"-->
-    <!--        android:layout_width="212dp"-->
-    <!--        android:layout_height="60dp"-->
-    <!--        android:background="#00BFA5"-->
-    <!--        android:text="パスワードを忘れた方はこちら"-->
-    <!--        android:textColor="@color/white"-->
-    <!--        android:textSize="16dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.497"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.928"-->
-    <!--        tools:ignore="TextContrastCheck" />-->
+        app:layout_constraintVertical_bias="0.777" />
 
     <Button
         android:id="@+id/ButtonLogIn"
         android:layout_width="220dp"
         android:layout_height="60dp"
-        android:background="#00B89F"
         android:text="ログイン"
-        android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.688" />
 
-
-    //ここからメニューとロゴのバー
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/LogoBar"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:background="@color/white"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+    <TextView
+        android:id="@+id/ForgottenPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パスワードを忘れた方はこちら"
+        android:textColor="@color/black"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.889" />
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="124dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/LogoBar"
-        app:layout_constraintTop_toTopOf="@+id/LogoBar"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo" />
-
-    <ImageView
-        android:id="@+id/profile"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
-        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
-        app:layout_constraintStart_toStartOf="@+id/LogoBar"
-        app:layout_constraintTop_toTopOf="@+id/LogoBar"
-        app:layout_constraintVertical_bias="0.592"
-        app:srcCompat="@drawable/profile" />
-
-
-    <ImageButton
-        android:id="@+id/HomeButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/home"
-        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
-        app:layout_constraintEnd_toEndOf="@+id/LogoBar"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@+id/LogoBar"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    //ここからタイトルを書くバー。タイトル必要なページのみ
 
 </androidx.constraintlayout.widget.ConstraintLayout>
