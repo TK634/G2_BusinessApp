@@ -14,7 +14,7 @@ public class User7 extends AppCompatActivity {
         setContentView(R.layout.activity_user7);
 
 
-
+//マッチングする
         Button btn1 = findViewById(R.id.ButtonToUser9);
         btn1.setOnClickListener(v -> {
             // Intent を生成
@@ -29,7 +29,7 @@ public class User7 extends AppCompatActivity {
             startActivity(newIntent);
 
         });
-
+//マッチングしない
         Button btn2 = findViewById(R.id.ButtonToUser8);
         btn2.setOnClickListener(v -> {
             // Intent を生成

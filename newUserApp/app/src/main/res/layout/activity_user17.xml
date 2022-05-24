@@ -4,30 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context=".User17">
 
-=======
-    tools:context=".User4">
->>>>>>> origin
+
+
 
     <Button
         android:id="@+id/ButtonToUser18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:background="#00B89F"
         android:text="Next"
         android:textColor="@color/white"
-=======
         android:layout_marginBottom="68dp"
-        android:text="次へ"
->>>>>>> origin
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956"
         tools:ignore="TextContrastCheck" />
@@ -116,20 +109,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
-=======
-        app:layout_constraintTop_toTopOf="@+id/guideline28"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="296dp"
-        android:layout_height="84dp"
-        android:text="レビュー記入"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline34"
-        app:layout_constraintEnd_toStartOf="@+id/guideline35"
-        app:layout_constraintStart_toStartOf="@+id/guideline36"
-        app:layout_constraintTop_toTopOf="@+id/guideline31" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -138,7 +117,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline36"
-        app:layout_constraintTop_toTopOf="@+id/guideline32" />
+        app:layout_constraintTop_toTopOf="@+id/guideline32"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView33"
@@ -159,10 +139,12 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline28"
         app:layout_constraintEnd_toStartOf="@+id/guideline35"
         app:layout_constraintStart_toStartOf="@+id/guideline36"
-        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView35"
@@ -250,7 +232,5 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
-
->>>>>>> origin
 
 </androidx.constraintlayout.widget.ConstraintLayout>
