@@ -115,26 +115,27 @@
         android:ems="10"
         android:text="旅行先のエリアを選択"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="#005747"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.243" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="383dp"
-        android:layout_height="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Select a travel destination area from below"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.433" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
@@ -206,8 +207,8 @@
 
     <ImageButton
         android:id="@+id/HomeButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:src="@drawable/home"
