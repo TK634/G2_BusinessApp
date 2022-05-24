@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //Get email and password by Edittext
         final EditText email = findViewById(R.id.email);
         final EditText password =findViewById(R.id.password);
-        Button btn_submit = findViewById(R.id.ButtonLogIn);
+        Button btn_submit = findViewById(R.id.ButtonToUser2);
         MemberEmail ema = new MemberEmail();
         btn_submit.setOnClickListener(v -> {
 
@@ -89,6 +89,21 @@ public class MainActivity extends AppCompatActivity {
 //                Log.w("Sue", "Failed to read value.", error.toException());
 //            }
 //        });
+
+        Button btn = findViewById(R.id.ButtonToUser3);
+        btn.setOnClickListener(v -> {
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+            Intent newIntent = new Intent(btn.getContext(), User3.class);
+
+            // Intent にデータを保存
+            newIntent.putExtra("KEY3", "value");
+
+            // 新規画面表示実行
+            startActivity(newIntent);
+
+        });
 
 
 

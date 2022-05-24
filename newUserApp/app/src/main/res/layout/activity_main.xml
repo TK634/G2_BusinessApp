@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.552" />
 
     <Button
-        android:id="@+id/ButtonToNewRegister"
+        android:id="@+id/ButtonToUser2"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:background="#00B89F"
@@ -85,7 +85,7 @@
     <!--        tools:ignore="TextContrastCheck" />-->
 
     <Button
-        android:id="@+id/ButtonLogIn"
+        android:id="@+id/ButtonToUser3"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:background="#00B89F"

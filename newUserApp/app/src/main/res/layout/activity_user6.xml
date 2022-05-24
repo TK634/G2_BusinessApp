@@ -8,22 +8,33 @@
     android:textDirection="firstStrongRtl"
     tools:context=".User5">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="食事の選択"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
     <CheckBox
         android:id="@+id/checkBox24"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox24"
-        android:textColor="@color/white"
+        android:text="寿司"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.86"
+        app:layout_constraintVertical_bias="0.861"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
@@ -31,35 +42,30 @@
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox23"
-        android:textColor="@color/white"
+        android:text="和食"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.86"
+        app:layout_constraintVertical_bias="0.861"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
+
 
     <CheckBox
         android:id="@+id/checkBox22"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox22"
-        android:textColor="@color/white"
+        android:text="洋食"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.738"
+        app:layout_constraintVertical_bias="0.737"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
@@ -67,144 +73,88 @@
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox21"
-        android:textColor="@color/white"
+        android:text="抹茶グルメ"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.738"
+        app:layout_constraintVertical_bias="0.737"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox20"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox20"
-        android:textColor="@color/white"
+        android:layout_width="98dp"
+        android:layout_height="43dp"
+        android:text="京舞鑑賞"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.618"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox19"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox19"
-        android:textColor="@color/white"
+        android:layout_width="98dp"
+        android:layout_height="43dp"
+        android:text="陶芸体験"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.498"
         tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox18"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox18"
-        android:textColor="@color/white"
+        android:layout_width="97dp"
+        android:layout_height="44dp"
+        android:text="茶道体験"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.498"
+        app:layout_constraintVertical_bias="0.501"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox6"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox16"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.376"
-        tools:ignore="TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox15"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox15"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.376"
-        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox14"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
         android:text="@string/checkBox14"
-        android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.256"
+        app:layout_constraintVertical_bias="0.299"
         tools:ignore="TextContrastCheck" />
 
+    <!--    ここまで-->
 
     <CheckBox
         android:id="@+id/checkBox13"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox13"
-        android:textColor="@color/white"
+        android:text="二条城"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.256"
+        app:layout_constraintVertical_bias="0.299"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
@@ -212,17 +162,14 @@
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox12"
-        android:textColor="@color/white"
+        android:text="清水寺"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.137"
+        app:layout_constraintVertical_bias="0.189"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <CheckBox
@@ -230,44 +177,30 @@
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox11"
-        android:textColor="@color/white"
+        android:text="金閣寺"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.019"
+        app:layout_constraintVertical_bias="0.081"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-    <!--    ここまで-->
     <CheckBox
         android:id="@+id/checkBox16"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
         android:text="@string/checkBox16"
-        android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.015"
+        app:layout_constraintVertical_bias="0.081"
         tools:ignore="TextContrastCheck" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.24076608" />
 
     <TextView
         android:id="@+id/textView3"
@@ -278,9 +211,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.244" />
 
     <TextView
         android:id="@+id/textView6"
@@ -291,8 +225,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.026" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
 
     <Button
         android:id="@+id/ButtonToUser7"
@@ -303,102 +237,34 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline10"
-        app:layout_constraintVertical_bias="0.795"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="507dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="98dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="53dp" />
+        app:layout_constraintGuide_percent="0.92749655" />
 
-    <CheckBox
-        android:id="@+id/checkBox17"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
-        android:text="@string/checkBox17"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.618"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
 
     <CheckBox
         android:id="@+id/checkBox"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="128dp"
         android:layout_height="48dp"
-        android:background="#00B89F"
-        android:button="@android:drawable/checkbox_off_background"
         android:text="@string/checkBox"
-        android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.137"
+        app:layout_constraintVertical_bias="0.189"
         tools:ignore="TextContrastCheck" />
 
     <!--    ここからタイトルバー-->
@@ -429,6 +295,20 @@
         app:layout_constraintEnd_toEndOf="@+id/TitleBar"
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体験の選択"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
 
     //ここからメニューとロゴのバー
     <androidx.appcompat.widget.Toolbar
@@ -484,5 +364,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
