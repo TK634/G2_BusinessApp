@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //Get email and password by Edittext
         final EditText email = findViewById(R.id.email);
         final EditText password =findViewById(R.id.password);
-        Button btn_submit = findViewById(R.id.ButtonToUser2);
+        Button btn_submit = findViewById(R.id.ButtonLogIn);
         MemberEmail ema = new MemberEmail();
         btn_submit.setOnClickListener(v -> {
 
@@ -39,8 +39,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, ""+er.getMessage(), Toast.LENGTH_SHORT).show();
             });
 
-            //User2に遷移する
 
+
+            //User2に遷移する（新規登録）
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
@@ -51,6 +52,18 @@ public class MainActivity extends AppCompatActivity {
 
             // 新規画面表示実行
             startActivity(newIntent);
+
+            //User3に遷移する（ログイン）
+            // Intent を生成
+            // 第一引数はこの処理のContext
+            // 第二引数に遷移先画面のSampleActivityを指定
+//            Intent newIntent = new Intent(btn_submit.getContext(), User2.class);
+//
+//            // Intent にデータを保存
+//            newIntent.putExtra("KEY1", "value");
+//
+//            // 新規画面表示実行
+//            startActivity(newIntent);
 
         });
 

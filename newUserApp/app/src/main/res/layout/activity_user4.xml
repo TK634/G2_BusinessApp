@@ -10,96 +10,101 @@
         android:id="@+id/ButtonToUser5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00B89F"
         android:text="next"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00B89F"
         android:text="BACK"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="エリア選択"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox27"
         android:layout_width="160dp"
         android:layout_height="50dp"
+        android:background="#00B89F"
         android:button="@android:drawable/checkbox_on_background"
         android:text="OKINAWA"
-        android:textSize="27sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.678"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox28"
         android:layout_width="160dp"
         android:layout_height="50dp"
+        android:background="#00B89F"
         android:button="@android:drawable/checkbox_on_background"
         android:text="HOKKAIDO"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.678"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox29"
         android:layout_width="160dp"
         android:layout_height="50dp"
+        android:background="#00B89F"
         android:button="@android:drawable/checkbox_on_background"
         android:text="FUKUOKA"
-        android:textSize="27sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintVertical_bias="0.807"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox30"
         android:layout_width="160dp"
         android:layout_height="50dp"
+        android:background="#00B89F"
         android:button="@android:drawable/checkbox_on_background"
         android:text="OSAKA"
-        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintVertical_bias="0.807"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox31"
@@ -107,54 +112,146 @@
         android:layout_height="50dp"
         android:button="@android:drawable/checkbox_on_background"
         android:text="TOKYO"
-        android:textSize="34sp"
+        android:background="#00B89F"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.558"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/checkBox32"
         android:layout_width="160dp"
         android:layout_height="50dp"
+        android:background="#00B89F"
         android:button="@android:drawable/checkbox_on_background"
         android:text="KYOTO"
-        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.558"
+        tools:ignore="TextContrastCheck" />
+
+    <!--    ここからタイトルバー-->
 
     <TextView
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
+        android:id="@+id/textView4"
+        android:layout_width="253dp"
+        android:layout_height="29dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="旅行先のエリアを選択"
-        android:textSize="34sp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="383dp"
+        android:layout_height="72dp"
+        android:text="Select a travel destination area from below"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="#00B89F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
+        app:layout_constraintVertical_bias="0.097" />
 
     <TextView
-        android:id="@+id/textView18"
-        android:layout_width="380dp"
-        android:layout_height="40dp"
-        android:text="Select a travel destination area from below"
-        android:textSize="20sp"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="エリア選択"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TitleBar"
+        app:layout_constraintEnd_toEndOf="@+id/TitleBar"
+        app:layout_constraintStart_toStartOf="@+id/TitleBar"
+        app:layout_constraintTop_toTopOf="@+id/TitleBar" />
+
+    //ここからメニューとロゴのバー
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/LogoBar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/profile" />
+
+
+    <ImageButton
+        android:id="@+id/HomeButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="@+id/LogoBar"
+        app:layout_constraintEnd_toEndOf="@+id/LogoBar"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@+id/LogoBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
