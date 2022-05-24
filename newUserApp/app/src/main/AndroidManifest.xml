@@ -78,9 +78,6 @@
             android:name=".User17"
             android:exported="false" />
         <activity
-            android:name=".User16"
-            android:exported="false" />
-        <activity
             android:name=".User15"
             android:exported="false" />
         <activity

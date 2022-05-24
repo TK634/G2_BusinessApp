@@ -199,22 +199,37 @@
     app:layout_constraintVertical_bias="0.543" />
 
 
-<Button
-android:id="@+id/ButtonToUser10"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:background="#00B89F"
-android:text="Next"
-android:textColor="@color/white"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.863"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.976"
-tools:ignore="TextContrastCheck,TextContrastCheck" />
+    <Button
+        android:id="@+id/ButtonToUser10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00B89F"
+        android:text="マッチング待機"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-<androidx.appcompat.widget.Toolbar
+    <Button
+        android:id="@+id/ButtonToUser11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00B89F"
+        android:text="マッチング相手がいます"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
 android:id="@+id/TitleBar"
 android:layout_width="match_parent"
 android:layout_height="55dp"

@@ -13,6 +13,8 @@ public class User6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user6);
 
+//        ページ7に遷移
+
         Button btn = findViewById(R.id.ButtonToUser7);
         btn.setOnClickListener(v -> {
             // Intent を生成

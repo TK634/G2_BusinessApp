@@ -13,6 +13,7 @@ public class User9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user9);
 
+//マッチング待機中
         Button btn = findViewById(R.id.ButtonToUser10);
         btn.setOnClickListener(v -> {
             // Intent を生成
@@ -28,6 +29,7 @@ public class User9 extends AppCompatActivity {
 
         });
 
+//マッチング相手がいます
         Button btn1 = findViewById(R.id.ButtonToUser11);
         btn1.setOnClickListener(v -> {
             // Intent を生成

@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.172" />
 
     <Button
-        android:id="@+id/ButtonToUser21"
+        android:id="@+id/ButtonToUser1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ホーム画面に戻る"

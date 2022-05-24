@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/ButtonToUser19"
+        android:id="@+id/ButtonToUser1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00B89F"
@@ -124,7 +124,7 @@
 
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/ButtonToUser19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00B89F"
