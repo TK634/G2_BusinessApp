@@ -18,7 +18,7 @@ public class User15 extends AppCompatActivity {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn1.getContext(), User16.class);
+            Intent newIntent = new Intent(btn1.getContext(), User16_GoogleMap.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY7", "value");

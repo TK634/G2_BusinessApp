@@ -13,19 +13,6 @@ public class BusinessPage5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_page5);
 
-        Button btn = findViewById(R.id.ButtonToHome);
-        btn.setOnClickListener(v -> {
-            // Intent を生成
-            // 第一引数はこの処理のContext
-            // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), BusinessPage4.class);
 
-            // Intent にデータを保存
-            newIntent.putExtra("KEY7", "value");
-
-            // 新規画面表示実行
-            startActivity(newIntent);
-
-        });
     }
 }

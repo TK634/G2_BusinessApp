@@ -10,8 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="ご希望のジャンルをお選びください"
         android:textAlignment="center"
+=======
+        android:text="　お好きな体験・食事のジャンルをお選びください"
+>>>>>>> origin
         android:textColor="#000000"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

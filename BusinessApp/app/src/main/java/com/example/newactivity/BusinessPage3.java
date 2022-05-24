@@ -15,7 +15,7 @@ public class BusinessPage3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_page3);
 
-        Button btn = findViewById(R.id.ButtonToBusiness4);
+        Button btn = findViewById(R.id.ButtonToNext);
         btn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext

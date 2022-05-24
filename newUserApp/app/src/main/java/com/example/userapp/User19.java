@@ -6,21 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class User8 extends AppCompatActivity {
-
-
+public class User19 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user8);
+        setContentView(R.layout.activity_user19);
 
-        Button btn = findViewById(R.id.ButtonToUser14);
+        Button btn = findViewById(R.id.ButtonToUser20);
         btn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), User14.class);
+            Intent newIntent = new Intent(btn.getContext(), User20.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY7", "value");
@@ -29,6 +27,5 @@ public class User8 extends AppCompatActivity {
             startActivity(newIntent);
 
         });
-
     }
 }
