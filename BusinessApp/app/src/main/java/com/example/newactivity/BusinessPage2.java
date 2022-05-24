@@ -35,7 +35,7 @@ public class BusinessPage2 extends AppCompatActivity {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), BusinessPage4.class);
+            Intent newIntent = new Intent(Homebtn.getContext(), BusinessPage4.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY7", "value");
@@ -46,27 +46,14 @@ public class BusinessPage2 extends AppCompatActivity {
         });
 
         //ホームボタン
-        ImageButton btn = findViewById(R.id.ProfileButton);
-        btn.setOnClickListener(v -> {
-            // Intent を生成
-            // 第一引数はこの処理のContext
-            // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), BusinessPage4.class);
 
-            // Intent にデータを保存
-            newIntent.putExtra("KEY7", "value");
-
-            // 新規画面表示実行
-            startActivity(newIntent);
-
-        });
 
         Button nextbtn = findViewById(R.id.ButtonToNext);
         nextbtn.setOnClickListener(v -> {
             // Intent を生成
             // 第一引数はこの処理のContext
             // 第二引数に遷移先画面のSampleActivityを指定
-            Intent newIntent = new Intent(btn.getContext(), BusinessPage3.class);
+            Intent newIntent = new Intent(nextbtn.getContext(), BusinessPage3.class);
 
             // Intent にデータを保存
             newIntent.putExtra("KEY7", "value");
