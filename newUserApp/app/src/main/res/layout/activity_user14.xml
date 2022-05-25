@@ -161,12 +161,6 @@
         app:layout_constraintStart_toStartOf="parent" />
     />
 
-
-
-
-
-
-
     //ここからメニューとロゴのバー
 
     <androidx.appcompat.widget.Toolbar
@@ -233,7 +227,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975"
-        app:srcCompat="@drawable/ad2" />
+        app:srcCompat="@drawable/adv2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

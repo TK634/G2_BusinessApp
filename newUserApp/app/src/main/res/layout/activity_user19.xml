@@ -233,7 +233,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/LogoBar"
         app:layout_constraintVertical_bias="0.961"
-        app:srcCompat="@drawable/ad2" />
+        app:srcCompat="@drawable/adv2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
