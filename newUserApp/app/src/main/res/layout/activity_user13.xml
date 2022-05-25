@@ -11,71 +11,27 @@
         android:id="@+id/ButtonToUser14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00B89F"
-        android:text="Next"
-        android:textColor="@color/white"
+        android:layout_marginBottom="36dp"
+        android:text="NEXT"
+        android:textSize="16dp"
+        app:backgroundTint="#FFD600"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.922"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        tools:ignore="TextContrastCheck" />
-    <!--日付-->
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:background="#00B89F"
-        android:text="Date"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <!--時間-->
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:background="#00B89F"
-        android:text="Time"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-    <!--場所    -->
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:background="#00B89F"
-        android:text="Place"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+    <ImageView
+        android:id="@+id/Tokyo"
+        android:layout_width="306dp"
+        android:layout_height="214dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.398"
+        app:srcCompat="@drawable/toukgei" />
 
     <TextView
         android:id="@+id/textView32"
@@ -83,31 +39,68 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="May 28th"
-        android:textSize="20sp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
-
+        app:layout_constraintVertical_bias="0.59" />
 
     <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView28"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
+        android:background="#00B89F"
         android:padding="8dp"
-        android:text="唐澤さん"
-        android:textSize="20sp"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661" />
+        app:layout_constraintVertical_bias="0.589"
+        tools:ignore="TextContrastCheck" />
 
-    <!--    ここからタイトルバー-->
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#00B89F"
+        android:padding="8dp"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#00B89F"
+        android:padding="8dp"
+        android:text="Place"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView36"
@@ -118,13 +111,13 @@
         android:text="With"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661"
+        app:layout_constraintVertical_bias="0.828"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <TextView
@@ -133,12 +126,14 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="13:45"
-        android:textSize="20sp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
 
     <TextView
         android:id="@+id/textView35"
@@ -146,13 +141,29 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="瑞翔窯　清水店"
-        android:textSize="20sp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
+        app:layout_constraintVertical_bias="0.746" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="唐澤みなみ さん"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
@@ -182,6 +193,8 @@
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
 
+    //ここからメニューとロゴのバー
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -191,12 +204,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.222" />
 
-    //ここからメニューとロゴのバー
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LogoBar"
         android:layout_width="match_parent"
