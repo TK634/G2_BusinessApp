@@ -6,155 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".User14">
 
-    <Button
-        android:id="@+id/ButtonToUser15"
-        android:layout_width="156dp"
-        android:layout_height="62dp"
-        android:background="#00B89F"
-        android:text="決済を完了する"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.776"
-        tools:ignore="TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="241dp"
-        android:layout_height="35dp"
-        android:text="陶芸体験料"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="79dp"
-        android:layout_height="26dp"
-        android:text="￥7,000"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="95dp"
-        android:layout_height="29dp"
-        android:text="￥3,500"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.411"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="241dp"
-        android:layout_height="35dp"
-        android:background="#00B89F"
-        android:text="　　　項目"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline19"
-        app:layout_constraintVertical_bias="0.044"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="88dp"
-        android:layout_height="35dp"
-        android:background="#00B89F"
-        android:text="　　単価"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.371"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline19"
-        app:layout_constraintVertical_bias="0.044"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="93dp"
-        android:layout_height="35dp"
-        android:background="#00B89F"
-        android:text="　　数量"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.654"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline19"
-        app:layout_constraintVertical_bias="0.044"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="121dp"
-        android:layout_height="35dp"
-        android:background="#00B89F"
-        android:text="　　　金額"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline19"
-        app:layout_constraintVertical_bias="0.044"
-        tools:ignore="TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="96dp"
-        android:layout_height="29dp"
-        android:text="2"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.755"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
-
     <androidx.constraintlayout.widget.Barrier
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="218dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="290dp" />
 
     <!--    ここからタイトルバー-->
 
@@ -173,7 +30,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.097" />
 
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -184,6 +40,131 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="158dp"
+        android:layout_height="44dp"
+        android:text="項目"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleBar"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="91dp"
+        android:layout_height="44dp"
+        android:text="単価"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="92dp"
+        android:layout_height="44dp"
+        android:text="数量"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="93dp"
+        android:layout_height="44dp"
+        android:text="金額"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="172dp"
+        android:layout_height="34dp"
+        android:text="陶芸体験料"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="95dp"
+        android:layout_height="29dp"
+        android:text="￥3,500"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="79dp"
+        android:layout_height="26dp"
+        android:text="￥7,000"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <Button
+        android:id="@+id/ButtonToUser15"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:background="#00B89F"
+        android:text="決済を完了する"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="TextContrastCheck" />
+
+
+
+
+
 
 
     //ここからメニューとロゴのバー
@@ -241,5 +222,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

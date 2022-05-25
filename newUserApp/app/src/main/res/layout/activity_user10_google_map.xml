@@ -12,6 +12,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true" />
         ​
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -29,6 +30,7 @@
             android:text="待機中..."
             android:textSize="25dp" />
         ​
+
         <Button
             android:id="@+id/ButtonToUser11"
             android:layout_width="310dp"
@@ -41,7 +43,7 @@
             android:layout_marginTop="337dp"
             android:layout_marginEnd="49dp"
             android:layout_marginBottom="324dp"
-            android:background="#359c5e"
+            android:background="#00B89F"
             android:padding="16dp"
             android:text="マッチング希望者がいます！"
             android:textColor="#ffffff"

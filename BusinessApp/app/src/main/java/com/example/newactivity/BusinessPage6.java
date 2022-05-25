@@ -31,7 +31,7 @@ public class BusinessPage6 extends AppCompatActivity implements CalendarView.OnD
         });
 
         //カレンダービューで選択した日付を表示
-        CalendarView calendarView = (CalendarView) findViewById(R.id.Business6calendarView);        calendarView.setOnDateChangeListener(this);
+        CalendarView calendarView = (CalendarView) findViewById(R.id.Business6calendarView);
         calendarView.setOnDateChangeListener(this);
     }
     //カレンダーで日付を選択するとReservationDetailsページを表示

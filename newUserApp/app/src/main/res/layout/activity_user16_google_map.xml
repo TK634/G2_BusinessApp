@@ -12,6 +12,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
     ​
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
@@ -27,7 +28,7 @@
         android:background="#ffffff"
         android:padding="40dp"
         android:text="RooTripをご利用いただき誠にありがとうございました！またのご利用をお持ちしております。"
-        android:textSize="25dp" />
+        android:textSize="16dp" />
     ​
     <Button
         android:id="@+id/ButtonToUser17"
@@ -43,7 +44,7 @@
         android:layout_marginBottom="294dp"
         android:background="#359c5e"
         android:padding="16dp"
-        android:text="レビュー、ご感想にご協力をお願いします！"
+        android:text="レビュー、ご感想にご協力を   お願いします！"
         android:textColor="#ffffff"
         android:textSize="18dp" />
     ​

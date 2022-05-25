@@ -8,20 +8,6 @@
     android:textDirection="firstStrongRtl"
     tools:context=".User5">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="食事の選択"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
     <CheckBox
         android:id="@+id/checkBox24"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
@@ -87,7 +73,7 @@
         android:id="@+id/checkBox20"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="98dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:text="京舞鑑賞"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,7 +86,7 @@
     <CheckBox
         android:id="@+id/checkBox19"
         android:layout_width="98dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:text="陶芸体験"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -114,7 +100,7 @@
         android:id="@+id/checkBox18"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="97dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:text="茶道体験"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -202,19 +188,6 @@
         app:layout_constraintVertical_bias="0.081"
         tools:ignore="TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="観光地の選択"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
 
     <TextView
         android:id="@+id/textView6"
@@ -226,7 +199,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintVertical_bias="0.195" />
 
     <Button
         android:id="@+id/ButtonToUser7"
@@ -237,20 +210,11 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintHorizontal_bias="0.876"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline10"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.92749655" />
-
-
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -267,7 +231,6 @@
         app:layout_constraintVertical_bias="0.189"
         tools:ignore="TextContrastCheck" />
 
-    <!--    ここからタイトルバー-->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
         android:layout_width="match_parent"
@@ -296,21 +259,8 @@
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="体験の選択"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.539" />
-
     //ここからメニューとロゴのバー
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LogoBar"
         android:layout_width="match_parent"
@@ -352,8 +302,8 @@
 
     <ImageButton
         android:id="@+id/HomeButton"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:src="@drawable/home"
@@ -365,10 +315,39 @@
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <View
-        android:id="@+id/view"
+    <Button
+        android:id="@+id/button19"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="観光地の選択"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体験の選択"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="食事の選択"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

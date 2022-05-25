@@ -7,104 +7,140 @@
     tools:context=".User5">
 
 
-
-
-    <!--出発地の選択肢-->
-    <EditText
-        android:id="@+id/editTextNumberDecimal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/estimate"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/departure"
-        android:layout_width="137dp"
-        android:layout_height="36dp"
-        android:text="@string/departure"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
-
     <!--    custom_spinner-->
 
     <!--    custom_spinner_dropdown-->
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="277dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:textColor="@color/white"
-        android:entries="@array/list"
-        android:spinnerMode="dialog"
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="@string/estimate"
+        android:inputType="numberDecimal"
+        android:minHeight="50dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="予算"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:entries="@array/list"
+        android:spinnerMode="dialog"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
+        app:layout_constraintVertical_bias="0.292" />
 
-    <TextView
-        android:id="@+id/destination"
-        android:layout_width="137dp"
-        android:layout_height="36dp"
-        android:text="@string/destination"
+    <Button
+        android:id="@+id/departure"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="出発地"
         android:textSize="16dp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.438" />
+        app:layout_constraintVertical_bias="0.292" />
+
 
     <Spinner
         android:id="@+id/spinner3"
-        android:layout_width="277dp"
-        android:layout_height="48dp"
-        android:background="#00B89F"
-        android:textColor="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
         android:entries="@array/list"
         android:spinnerMode="dialog"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.368" />
+
+    <Button
+        android:id="@+id/destination"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="到着地"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
 
     <Button
         android:id="@+id/ButtonToUser6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00B89F"
-        android:text="Next"
-        android:textColor="@color/white"
+        android:layout_marginBottom="36dp"
+        android:text="NEXT"
+        android:textSize="16dp"
+        app:backgroundTint="#FFD600"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Date"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:text="日程"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954"
-        tools:ignore="TextContrastCheck" />
-    <!--    ここからタイトルバー-->
+        app:layout_constraintVertical_bias="0.474" />
+
+    <CalendarView
+        android:id="@+id/SelectDate"
+        android:layout_width="314dp"
+        android:layout_height="295dp"
+        android:maxDate="05/01/2023"
+        android:minDate="05/01/2022"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.Spinner;
 
 public class User5 extends AppCompatActivity {
@@ -40,5 +41,6 @@ public class User5 extends AppCompatActivity {
         );
         adapter.setDropDownViewResource(R.layout.user5_custom_spinner_dropdown);
         spinner.setAdapter(adapter);
+
     }
 }
