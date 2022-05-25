@@ -8,185 +8,8 @@
     android:textDirection="firstStrongRtl"
     tools:context=".User5">
 
-    <CheckBox
-        android:id="@+id/checkBox24"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="寿司"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.861"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox23"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="和食"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.861"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-
-    <CheckBox
-        android:id="@+id/checkBox22"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="洋食"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.737"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox21"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="抹茶グルメ"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.737"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox20"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="98dp"
-        android:layout_height="48dp"
-        android:text="京舞鑑賞"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox19"
-        android:layout_width="98dp"
-        android:layout_height="48dp"
-        android:text="陶芸体験"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:ignore="TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox18"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="97dp"
-        android:layout_height="48dp"
-        android:text="茶道体験"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.501"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox14"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="@string/checkBox14"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.299"
-        tools:ignore="TextContrastCheck" />
 
     <!--    ここまで-->
-
-    <CheckBox
-        android:id="@+id/checkBox13"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="二条城"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.299"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox12"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="清水寺"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.189"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox11"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="金閣寺"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.081"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox16"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="@string/checkBox16"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.081"
-        tools:ignore="TextContrastCheck" />
 
 
     <TextView
@@ -194,42 +17,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Where you definitely want to go"
-        android:textSize="20sp"
+        android:textColor="#005747"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintVertical_bias="0.197" />
 
     <Button
         android:id="@+id/ButtonToUser7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00B89F"
+        android:layout_marginBottom="24dp"
         android:text="NEXT"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:text="@string/checkBox"
         android:textSize="16dp"
+        app:backgroundTint="#FFD600"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.189"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
@@ -317,37 +125,236 @@
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
         android:text="観光地の選択"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.267" />
 
-    <Button
-        android:id="@+id/button20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="体験の選択"
+    <CheckBox
+        android:id="@+id/checkBox22"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="洋食"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.748"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="寿司"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.839"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="抹茶グルメ"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.748"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="和食"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.839"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:text="京舞鑑賞"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.528"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:text="陶芸体験"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.528"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        android:text="茶道体験"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.528"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/checkBox16"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/checkBox14"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.329"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="金閣寺"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.149"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="二条城"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.329"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="清水寺"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.24"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/checkBox"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.238"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button21"
-        android:layout_width="wrap_content"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:text="食事の選択"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="体験の選択"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

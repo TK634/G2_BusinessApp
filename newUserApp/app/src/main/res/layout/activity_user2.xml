@@ -6,11 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".User2">
 
+
+    <EditText
+        android:id="@+id/Nationality"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="国籍/Nationality"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
     <Button
         android:id="@+id/ButtonToUser3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="88dp"
         android:text="NEXT"
         android:textSize="16dp"
         app:backgroundTint="#FFD600"
@@ -19,6 +37,182 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="年齢/Age"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="ヴィーガン"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="アクティブ"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="グルメ"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="歴史が好き"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="自然が好き"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="バリアフリー"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="カップル"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="子ども連れ"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="473dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="ハラル"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="386dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="アレルギー"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="260dp" />
 
     <EditText
         android:id="@+id/Name"
@@ -28,43 +222,13 @@
         android:hint="名前/Name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741" />
-
-    <EditText
-        android:id="@+id/Age"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="年齢/Age"
-        android:inputType="number"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
-
-    <EditText
-        android:id="@+id/Nationality"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
-        android:ems="10"
-        android:hint="国籍/Nationality"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.377" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline12"
@@ -87,27 +251,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="66dp" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="262dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="417dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="552dp" />
-
     <!--    ここからタイトルバー-->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/TitleBar"
@@ -128,10 +271,9 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="基本情報"
+        android:text="基本情報登録"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/TitleBar"
         app:layout_constraintEnd_toEndOf="@+id/TitleBar"
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
@@ -192,21 +334,17 @@
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    //ここからタイトルを書くバー。タイトル必要なページのみ
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="413dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ad4" />
 
-    <!--    <androidx.appcompat.widget.Toolbar-->
-    <!--        android:id="@+id/TitleBar2"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="55dp"-->
-    <!--        android:layout_gravity="center"-->
-    <!--        android:background="?attr/colorPrimary"-->
-    <!--        android:minHeight="?attr/actionBarSize"-->
-    <!--        android:theme="?attr/actionBarTheme"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.0"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.239" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
