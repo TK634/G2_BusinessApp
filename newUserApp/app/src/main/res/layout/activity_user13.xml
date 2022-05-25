@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".User13">
 
-
+    <!--日付-->
     <Button
         android:id="@+id/ButtonToUser14"
         android:layout_width="wrap_content"
@@ -16,13 +16,11 @@
         android:textSize="16dp"
         app:backgroundTint="#FFD600"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.826"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
     <ImageView
-        android:id="@+id/Tokyo"
+        android:id="@+id/Tougei"
         android:layout_width="306dp"
         android:layout_height="214dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,7 +191,6 @@
         app:layout_constraintStart_toStartOf="@+id/TitleBar"
         app:layout_constraintTop_toTopOf="@+id/TitleBar" />
 
-    //ここからメニューとロゴのバー
 
     <TextView
         android:id="@+id/textView2"

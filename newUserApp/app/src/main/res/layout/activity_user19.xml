@@ -223,5 +223,17 @@
         app:layout_constraintVertical_bias="0.592"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="419dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/LogoBar"
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/ad2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
